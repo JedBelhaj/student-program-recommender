@@ -1,0 +1,10 @@
+{
+  "programs": [
+    {
+      "program_id": "string",
+      "name": "string",
+      "description": "string",
+      "tags_text": "string"
+    }
+  ]
+}

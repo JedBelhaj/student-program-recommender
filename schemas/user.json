@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "user_id": "string",
+      "interests_text": "string",
+      "avg_grade": "number"
+    }
+  ]
+}

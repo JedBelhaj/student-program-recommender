@@ -1,0 +1,9 @@
+{
+  "interactions": [
+    {
+      "user_id": "string",
+      "program_id": "string",
+      "interaction": "integer"
+    }
+  ]
+}
