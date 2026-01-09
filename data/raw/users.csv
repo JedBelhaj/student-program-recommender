@@ -1,101 +1,601 @@
-user_id,interests_text,avg_grade
-u_0,biology drawing data,13.7
-u_1,math data engineering,15.3
-u_2,art design drawing,12.2
-u_3,drawing data ecology,12.7
-u_4,ecology drawing business,12.8
-u_5,design data biology,11.3
-u_6,art programming data,10.8
-u_7,programming math engineering,14.8
-u_8,engineering data programming,12.8
-u_9,data programming biology,12.8
-u_10,engineering drawing art,13.8
-u_11,programming ecology design,14.3
-u_12,drawing design business,11.0
-u_13,art drawing biology,18.3
-u_14,business data programming,14.9
-u_15,data biology engineering,11.3
-u_16,programming ecology design,15.7
-u_17,drawing ecology programming,8.4
-u_18,data biology business,10.5
-u_19,engineering ecology business,13.7
-u_20,art engineering drawing,16.0
-u_21,drawing biology data,13.5
-u_22,drawing ecology programming,10.3
-u_23,design drawing engineering,13.8
-u_24,ecology art design,13.2
-u_25,ecology business programming,13.8
-u_26,drawing biology data,11.7
-u_27,programming art design,16.7
-u_28,engineering design drawing,12.3
-u_29,drawing ecology engineering,13.1
-u_30,programming art ecology,14.9
-u_31,design business drawing,13.6
-u_32,design ecology programming,13.6
-u_33,ecology biology art,13.4
-u_34,drawing math data,12.5
-u_35,engineering ecology programming,12.2
-u_36,data design biology,12.1
-u_37,math biology design,14.3
-u_38,business data design,11.0
-u_39,data math programming,13.8
-u_40,design programming drawing,17.3
-u_41,math programming ecology,15.5
-u_42,art ecology business,13.9
-u_43,biology engineering design,14.1
-u_44,engineering drawing data,10.0
-u_45,ecology math biology,9.8
-u_46,design math biology,17.4
-u_47,ecology math biology,12.5
-u_48,art math biology,11.8
-u_49,ecology data engineering,14.0
-u_50,math design data,15.0
-u_51,drawing business biology,14.5
-u_52,programming biology ecology,10.5
-u_53,ecology biology math,16.5
-u_54,art ecology engineering,13.9
-u_55,art ecology programming,8.9
-u_56,biology ecology math,13.5
-u_57,drawing math programming,12.6
-u_58,design business ecology,12.0
-u_59,data biology drawing,11.1
-u_60,business programming drawing,10.6
-u_61,design biology data,7.4
-u_62,ecology biology math,13.1
-u_63,business engineering design,14.1
-u_64,biology business ecology,11.8
-u_65,design business engineering,11.0
-u_66,design data biology,13.1
-u_67,art design drawing,12.1
-u_68,math art biology,12.2
-u_69,art business design,11.0
-u_70,design drawing biology,14.4
-u_71,business data math,11.7
-u_72,engineering biology math,7.1
-u_73,engineering business biology,12.8
-u_74,math engineering data,14.4
-u_75,math design art,11.1
-u_76,math engineering programming,14.2
-u_77,ecology business math,13.8
-u_78,business data drawing,14.6
-u_79,math data art,13.7
-u_80,design programming biology,13.1
-u_81,design data business,14.4
-u_82,design math engineering,14.8
-u_83,drawing design programming,13.8
-u_84,biology math engineering,12.3
-u_85,math engineering drawing,12.8
-u_86,data programming math,11.1
-u_87,programming ecology business,11.3
-u_88,business data math,10.1
-u_89,biology engineering drawing,14.0
-u_90,math design ecology,13.7
-u_91,business art design,11.0
-u_92,drawing data business,15.1
-u_93,drawing programming art,13.4
-u_94,data biology ecology,13.1
-u_95,design engineering math,8.1
-u_96,business math biology,14.0
-u_97,biology drawing engineering,14.8
-u_98,art math data,10.5
-u_99,biology design art,15.0
+user_id,interests_text,math_grade,science_grade,language_grade
+u_0000,physical-science-and-engineering project electronics evaluation euler's model education time python behavior,80,73,82
+u_0001,natural security presentation problem computer-science leadership finance systems statistics basic-science,93,72,72
+u_0002,project cloud-computing energy speech probability virtual natural global analytics,93,84,69
+u_0003,platform business-strategy business social platforms problem teaching algorithms,81,69,69
+u_0004,neural python finance supply communication sales,77,52,54
+u_0005,tensorflow user design average governance-and-society learning-english market,68,62,78
+u_0006,writing image public computer-security-and-networks electrical-engineering resource cost leadership-and-management,64,58,92
+u_0007,strategy design hypothesis experience business-essentials writing statistics planning supply business-strategy,72,75,57
+u_0008,materials control system theory game research measurement personal-development,68,76,61
+u_0009,environmental-science-and-sustainability decision life-sciences medicine materials machine-learning mechanical average euler's system,79,67,71
+u_0010,supply (economics) html child visualization analytics javascript economics,67,97,74
+u_0011,experience computer-science innovation mobile-and-web-development personal-development,62,84,60
+u_0012,change test speech innovation operations,77,51,59
+u_0013,processing medical governance-and-society software-development user education totient cryptography,77,83,77
+u_0014,learning-english user i-deas philosophy networks mobile-and-web-development resource analytics education,73,71,57
+u_0015,performance finance economy computer physical-science-and-engineering algorithms computer-security-and-networks social environmental-science-and-sustainability,66,69,87
+u_0016,brand software interfaces supply microsoft flow digital image,79,53,78
+u_0017,environmental-science-and-sustainability corporate history learning-english solving,70,66,82
+u_0018,medical teaching physical-science-and-engineering public information social difference,87,86,64
+u_0019,corporate user disease computing basic-science,71,78,86
+u_0020,computer-security-and-networks statistical html basic-science medicine,69,72,61
+u_0021,algorithms plan system mechanical-engineering flow management,60,84,91
+u_0022,testing physics data physical-science-and-engineering resource internet entrepreneurship development test,74,87,79
+u_0023,machine syntax grammar strategy mechanical,67,79,93
+u_0024,social-sciences graphics artificial sustainability arts-and-humanities user,74,93,43
+u_0025,medicine problem change mechanical-engineering economy average child regression classification,84,76,71
+u_0026,mobile-and-web-development measurement probability plan music training culture,76,51,72
+u_0027,totient model software neural learning,79,92,68
+u_0028,image experience platform analytics business life-sciences policy service engineering,65,68,85
+u_0029,strategy computer-science music-and-art life-sciences stock english,78,68,81
+u_0030,measurement grammar change mechanical-engineering health memory patient,76,86,66
+u_0031,artificial euler's thought psychology communication graphics interface game problem,71,70,57
+u_0032,microsoft average marketing international operations decision planning engineering,78,78,75
+u_0033,average neural process totient leadership-and-management psychology learning-english investment,72,58,69
+u_0034,problem information-technology business-strategy strategic totient cloud,70,65,73
+u_0035,sustainability planning computer probability mechanical-engineering programming finance solving,79,97,77
+u_0036,arts-and-humanities thought grammar databases change mobile-and-web-development,78,74,51
+u_0037,arts-and-humanities supply management architecture user,74,75,100
+u_0038,general problem platforms syntax visualization hypothesis speech grammar,72,78,74
+u_0039,psychology public systems development design-and-product time,60,88,84
+u_0040,engineering i-deas innovation development computer philosophy relative disease flow,84,64,91
+u_0041,development mathematical writing risk strategy brand,58,82,100
+u_0042,international english optimization modeling test,63,68,76
+u_0043,design-and-product brand language electrical-engineering writing global,68,56,75
+u_0044,philosophy linear database innovation ordered financial measurement speech entrepreneurship user,62,80,63
+u_0045,health measurement decision statistical governance-and-society innovation solving life-sciences,93,65,71
+u_0046,governance-and-society case linear planning life-sciences,84,60,77
+u_0047,change basic-science user health google strategy euler's theory media,90,55,77
+u_0048,music natural mine biology (computer operations,78,84,60
+u_0049,analysis type image statistical hypothesis python human user history,59,81,78
+u_0050,cryptography image algorithms (economics) media,78,79,66
+u_0051,research speech teaching financial javascript materials user basic-science physics,77,78,66
+u_0052,marketing finance materials problem evaluation design management,97,80,60
+u_0053,health html user system electronics science image,82,63,84
+u_0054,networks cloud-computing analysis physical-science-and-engineering cloud child function natural data-science theory,88,65,86
+u_0055,image data-analysis interface social-sciences language internet control sales research,79,84,97
+u_0056,totient type python game cloud-computing thought electrical-engineering i-deas algorithms english,72,65,64
+u_0057,computing public-health project time application measurement,65,74,79
+u_0058,totient personal-development social virtual process supply data-science deep analytics regression,78,84,75
+u_0059,google internet experience model project graphics leadership-and-management mobile-and-web-development,92,71,100
+u_0060,business-strategy strategy google medical mathematical mobile-and-web-development behavior,82,64,62
+u_0061,music-and-art leadership history ordered computing design-and-product user data-science process,80,72,83
+u_0062,information accounting average innovation medicine mathematical history interfaces cost,80,74,64
+u_0063,pair design policy information management database,56,69,85
+u_0064,javascript corporate electronics time measurement energy control interface strategy,77,60,77
+u_0065,music-and-art case innovation hypothesis market corporate statistical basic-science java type,79,64,76
+u_0066,economics optimization platforms public image social-sciences leadership-and-management global,75,61,79
+u_0067,supply behavior i-deas network personal test biology optimization sustainability management,81,87,87
+u_0068,general research interface design-and-product medicine operations testing,58,63,81
+u_0069,science international change mathematical artificial time machine-learning graphics,81,81,100
+u_0070,media stock hypothesis materials electrical-engineering,81,88,86
+u_0071,finance solving english international java model energy,82,71,84
+u_0072,project design euler's artificial (computer life-sciences,65,72,69
+u_0073,value service cost leadership-and-management speech platforms interfaces performance,75,100,52
+u_0074,euler's data-analysis operations child business solving process problem,83,55,69
+u_0075,computing platforms training strategic computer visualization,88,75,62
+u_0076,market difference human strategic type flow,66,83,66
+u_0077,brand chain economy science (computer corporate basic-science networks sustainability,77,75,67
+u_0078,social cryptography artificial culture ordered solving totient html,100,82,50
+u_0079,database grammar computer-security-and-networks entrepreneurship evaluation music cloud,77,67,85
+u_0080,general english (economics) application chain mechanical-engineering writing education function statistics,65,73,81
+u_0081,excel algorithms mine change software value thought music-and-art,85,60,70
+u_0082,microsoft value engineering financial global architecture philosophy platforms learning,69,67,96
+u_0083,supply relative business game statistical solving architecture global learning-english,79,59,86
+u_0084,time natural tensorflow analytics grammar (economics) information leadership architecture neural,100,87,56
+u_0085,behavior optimization memory arts-and-humanities microsoft social-sciences case mechanical project language-learning,69,90,66
+u_0086,linear hypothesis project machine medical networks human strategic information-technology,80,84,63
+u_0087,ordered supply economics change difference,74,40,62
+u_0088,neural supply business-strategy solving global digital writing,71,60,94
+u_0089,data i-deas mechanical-engineering marketing google model probability strategy,57,69,76
+u_0090,language economy leadership totient regression learning case algorithms entrepreneurship social-sciences,92,57,88
+u_0091,measurement history linear systems microsoft virtual pair theory,75,63,80
+u_0092,medicine i-deas speech history system java,77,67,75
+u_0093,design-and-product project java cost behavior,70,76,82
+u_0094,processing speech energy cloud presentation child computer-security-and-networks euler's,94,60,100
+u_0095,platforms biology javascript chemistry modeling,51,73,82
+u_0096,language accounting mechanical networks hypothesis theory strategy basic-science decision,78,67,72
+u_0097,programming global physics process interface resource materials,69,67,85
+u_0098,policy algorithms information computing syntax database probability (economics),79,66,85
+u_0099,learning-english databases microsoft information syntax presentation personal-development testing euler's,78,84,82
+u_0100,business-strategy culture euler's solving strategic,65,68,83
+u_0101,(computer measurement supply neural leadership performance economics information-technology grammar,82,74,76
+u_0102,game ordered teaching business-strategy brand virtual,90,67,81
+u_0103,visualization analysis training psychology machine entrepreneurship corporate,72,72,88
+u_0104,physics visualization entrepreneurship child artificial decision classification investment,84,84,90
+u_0105,finance public analytics optimization excel,75,83,71
+u_0106,internet hypothesis design-and-product theory artificial image,78,73,76
+u_0107,accounting problem cryptography sustainability music-and-art game virtual difference (economics),82,65,100
+u_0108,digital statistics modeling corporate leadership-and-management innovation cryptography,62,60,88
+u_0109,child risk leadership-and-management systems electronics databases evaluation memory platform,84,82,82
+u_0110,brand media planning leadership-and-management public experience resource computing biology,74,64,75
+u_0111,policy mechanical social-sciences evaluation design,66,86,73
+u_0112,image business-essentials platforms social-sciences html,65,71,79
+u_0113,python programming patient media deep relative music teaching,68,65,77
+u_0114,marketing digital relative history software mobile-and-web-development,77,68,69
+u_0115,life-sciences cost service javascript marketing function linear biology,77,57,58
+u_0116,totient modeling visualization value medicine,66,72,78
+u_0117,electrical-engineering model database supply culture science statistical platform networks,92,85,73
+u_0118,test electrical-engineering engineering (computer electronics planning research,74,62,74
+u_0119,change user hypothesis writing social entrepreneurship network image cloud management,71,78,65
+u_0120,culture child brand deep business-essentials computer-science statistics general,81,93,73
+u_0121,media virtual difference life-sciences javascript statistics user computer-security-and-networks platform hypothesis,79,83,70
+u_0122,problem history natural model decision function,77,75,76
+u_0123,software-development life-sciences engineering arts-and-humanities internet brand i-deas,65,75,80
+u_0124,general music market microsoft child biology virtual optimization (economics),92,86,100
+u_0125,mechanical-engineering performance music writing chemistry language interface time testing,65,85,77
+u_0126,digital project finance experience international cost platform learning personal-development,100,65,64
+u_0127,language economy network deep training probability science business-strategy information-technology,67,49,68
+u_0128,information materials physics finance deep google thought application testing,65,76,79
+u_0129,python system music-and-art public-health excel performance general hypothesis mobile-and-web-development sustainability,97,86,68
+u_0130,difference security innovation digital testing,64,80,59
+u_0131,optimization stock management graphics mechanical-engineering,96,89,69
+u_0132,public-health marketing psychology training resource case economy video,54,91,73
+u_0133,science marketing financial personal-development sustainability health general music platforms grammar,89,55,67
+u_0134,leadership service medicine entrepreneurship policy,75,75,69
+u_0135,java image programming thought finance model,82,62,73
+u_0136,strategic modeling decision algorithms video,76,81,83
+u_0137,business-essentials mathematical mine (economics) value databases deep euler's difference image,61,56,90
+u_0138,interfaces psychology chemistry mathematical i-deas human,78,66,93
+u_0139,evaluation value teaching basic-science personal-development,76,89,75
+u_0140,media memory statistical platform design-and-product,99,96,72
+u_0141,physics function investment learning-english databases accounting application image natural thinking,86,82,91
+u_0142,testing psychology platforms entrepreneurship patient interfaces statistics public-health,63,83,87
+u_0143,chain cryptography artificial mine supply,53,60,50
+u_0144,hypothesis probability function performance data-science social-sciences disease presentation,71,83,93
+u_0145,planning music product difference programming corporate software-development,75,94,58
+u_0146,operations algorithms cloud deep user neural case excel,54,74,79
+u_0147,probability writing music-and-art international mechanical supply chain computer-security-and-networks,74,50,73
+u_0148,grammar mechanical-engineering data-science electrical-engineering strategy english service javascript general experience,59,83,79
+u_0149,finance information planning materials mine science arts-and-humanities excel statistical leadership,63,68,62
+u_0150,economics development public sales plan,74,86,63
+u_0151,data-analysis euler's flow public-health linear environmental-science-and-sustainability information-technology machine-learning,81,68,65
+u_0152,writing (computer supply electrical-engineering environmental-science-and-sustainability entrepreneurship,73,62,68
+u_0153,philosophy software-development statistics strategic html pair governance-and-society type,60,98,75
+u_0154,microsoft general behavior natural social,66,77,73
+u_0155,science accounting platform statistical html,72,82,84
+u_0156,child digital difference biology energy interfaces databases process,68,68,71
+u_0157,supply patient sales cost public virtual,47,56,91
+u_0158,learning graphics processing evaluation analysis linear javascript,94,72,81
+u_0159,computer medicine cryptography video general experience game analytics materials psychology,78,100,88
+u_0160,digital behavior economy corporate graphics environmental-science-and-sustainability education computer-security-and-networks communication,73,63,55
+u_0161,decision language java music computer-science design-and-product control syntax health finance,77,65,57
+u_0162,economics i-deas value network regression health mechanical-engineering,67,62,95
+u_0163,flow disease (economics) arts-and-humanities pair databases public,85,74,92
+u_0164,neural history microsoft cloud software-development economy model behavior memory international,75,64,93
+u_0165,visualization control finance processing programming user learning-english market,81,62,72
+u_0166,theory international i-deas user philosophy supply html plan,64,58,86
+u_0167,international statistics deep project electrical-engineering,97,58,81
+u_0168,economics (computer analytics decision software materials strategic virtual biology,67,69,67
+u_0169,thought history education design data-science biology performance communication english learning-english,64,75,65
+u_0170,architecture difference theory measurement cryptography platforms,78,74,72
+u_0171,global platform cryptography average algorithms value operations planning physics,64,68,84
+u_0172,thought business-strategy computer-science child theory systems science english resource,81,63,76
+u_0173,javascript theory natural decision sales,84,54,81
+u_0174,processing evaluation psychology market difference,67,81,65
+u_0175,hypothesis change medical html brand,53,55,75
+u_0176,computer application euler's social-sciences linear,78,64,82
+u_0177,strategy image research platform systems statistics,55,74,60
+u_0178,data-analysis brand management evaluation health mechanical-engineering digital,67,75,64
+u_0179,physical-science-and-engineering hypothesis project health programming sales,70,87,68
+u_0180,platform testing data network user marketing,85,61,81
+u_0181,electronics global product history cryptography software,92,45,65
+u_0182,investment resource stock presentation process culture disease analytics,81,72,79
+u_0183,design average graphics database biology governance-and-society medical leadership engineering,67,76,73
+u_0184,mobile-and-web-development networks javascript process physics classification science life-sciences,89,78,79
+u_0185,testing medicine data-analysis software social-sciences,70,69,69
+u_0186,case materials philosophy sustainability classification economics supply,79,69,78
+u_0187,flow public difference basic-science tensorflow interface planning virtual history,99,85,71
+u_0188,probability image corporate systems interface culture experience public-health neural difference,89,70,50
+u_0189,value average communication innovation networks type pair plan,62,52,70
+u_0190,javascript artificial strategy finance machine interface,75,95,78
+u_0191,cryptography electronics plan health visualization,72,84,48
+u_0192,platform cloud-computing music-and-art measurement market,77,84,57
+u_0193,game type solving problem corporate marketing general chemistry,88,79,70
+u_0194,game python cost basic-science change algorithms graphics,82,100,77
+u_0195,model process google visualization theory history business-strategy patient,77,69,64
+u_0196,networks cloud-computing case personal international medical,84,64,75
+u_0197,project medicine graphics excel personal-development leadership information-technology (economics) virtual,69,80,79
+u_0198,neural google business information-technology software-development linear graphics,87,68,71
+u_0199,strategy software-development electronics materials leadership finance i-deas flow,63,69,79
+u_0200,thinking global difference teaching social theory,84,63,85
+u_0201,corporate economics test brand machine marketing algorithms,91,79,97
+u_0202,economy electrical-engineering computer international writing (economics),65,60,53
+u_0203,hypothesis problem grammar medicine science value (economics) systems,92,82,74
+u_0204,history accounting interface physical-science-and-engineering media behavior presentation grammar product,78,61,100
+u_0205,internet design analytics processing chemistry development business financial biology change,76,76,83
+u_0206,pair business-essentials economics modeling business video,80,77,65
+u_0207,interface network health supply mechanical mine experience disease cloud-computing measurement,80,97,91
+u_0208,life-sciences processing electronics language information data governance-and-society,94,68,63
+u_0209,innovation cost networks patient optimization,73,75,88
+u_0210,html value business-essentials history optimization learning economics machine-learning electrical-engineering governance-and-society,54,93,73
+u_0211,resource security information process euler's platform mobile-and-web-development product writing processing,69,62,55
+u_0212,cryptography neural analytics application machine-learning cloud mathematical,84,75,59
+u_0213,history flow mathematical leadership-and-management google average decision data-analysis english python,59,70,95
+u_0214,pair energy network tensorflow algorithms operations,71,56,72
+u_0215,computing computer-security-and-networks performance strategic economy,71,42,74
+u_0216,design-and-product investment environmental-science-and-sustainability linear medical materials case testing computer-security-and-networks,72,83,97
+u_0217,function music strategy deep science service biology,88,71,61
+u_0218,presentation development game basic-science life-sciences java strategic,100,75,75
+u_0219,data-science development theory general cloud decision finance personal,74,77,73
+u_0220,basic-science interfaces strategic design-and-product image electronics language culture patient,68,68,74
+u_0221,psychology testing tensorflow artificial disease function engineering culture python teaching,68,66,76
+u_0222,machine basic-science decision network language totient policy music product database,71,93,43
+u_0223,social control plan media architecture thought neural behavior chemistry,88,89,50
+u_0224,service decision application software music-and-art,70,70,58
+u_0225,visualization behavior interfaces media digital,65,61,96
+u_0226,graphics tensorflow function application writing philosophy hypothesis software-development google java,86,90,83
+u_0227,platforms hypothesis language-learning health brand policy machine java cloud-computing thinking,61,68,80
+u_0228,music-and-art social-sciences measurement virtual electronics javascript product finance decision problem,60,83,72
+u_0229,resource data java information-technology change teaching grammar leadership-and-management model,70,83,80
+u_0230,algorithms cloud public planning basic-science mechanical-engineering,70,88,62
+u_0231,product data-science hypothesis neural electrical-engineering health brand thinking algorithms system,82,82,71
+u_0232,excel case arts-and-humanities corporate music design,78,59,86
+u_0233,control behavior corporate english science (computer media solving,72,68,87
+u_0234,investment statistics mechanical entrepreneurship java deep leadership-and-management theory behavior patient,66,58,56
+u_0235,strategic media supply disease flow global system regression,82,59,96
+u_0236,education digital marketing medical databases plan image python classification,50,95,77
+u_0237,market media machine system (economics) culture stock data-analysis information,73,68,79
+u_0238,analytics culture google project value,74,88,76
+u_0239,processing disease plan english interfaces,76,70,74
+u_0240,plan model leadership chain planning,78,54,58
+u_0241,probability application data-analysis education data-science general deep platforms mine investment,83,77,72
+u_0242,business writing data pair systems function sustainability average medicine,75,79,68
+u_0243,problem physical-science-and-engineering general english biology market computer entrepreneurship global,65,77,63
+u_0244,case governance-and-society software physical-science-and-engineering video brand learning-english data service stock,79,54,87
+u_0245,entrepreneurship speech software-development business-essentials networks management personal game patient,80,78,86
+u_0246,risk type measurement machine product resource strategy natural,94,87,52
+u_0247,basic-science image learning architecture deep design materials plan digital,59,67,75
+u_0248,data sales strategy accounting entrepreneurship syntax graphics computer-security-and-networks python design-and-product,81,66,77
+u_0249,economy application human design game natural neural medical network javascript,65,67,58
+u_0250,platforms relative service information-technology human software speech governance-and-society,63,58,63
+u_0251,public regression design language innovation,87,63,100
+u_0252,stock processing natural artificial digital data-science solving,80,77,64
+u_0253,psychology general sales computer operations music-and-art (economics) market theory information,83,68,76
+u_0254,cryptography music interfaces neural risk video excel theory,100,73,88
+u_0255,personal-development machine average problem writing interface tensorflow information-technology natural,66,74,96
+u_0256,testing python writing economics hypothesis public internet,67,96,83
+u_0257,tensorflow speech networks arts-and-humanities child science google investment,68,82,86
+u_0258,average game personal information evaluation,82,56,66
+u_0259,development cloud measurement html optimization control stock i-deas behavior social,72,74,82
+u_0260,software-development medicine behavior music computer-science,77,58,79
+u_0261,strategy english decision control resource interfaces,82,81,87
+u_0262,computer-science tensorflow algorithms behavior culture theory plan science cloud,85,80,74
+u_0263,education flow control processing innovation probability business-strategy totient history,55,80,77
+u_0264,time risk video training architecture,78,59,62
+u_0265,modeling user ordered mine investment change (computer general excel,87,74,83
+u_0266,regression market human life-sciences culture network classification science,75,75,86
+u_0267,environmental-science-and-sustainability chain type accounting policy,68,76,69
+u_0268,sustainability mechanical-engineering business-essentials statistical social,69,71,77
+u_0269,policy virtual html network resource mathematical model market regression education,69,90,64
+u_0270,performance project resource image patient theory,72,69,92
+u_0271,image health (computer security software java processing speech,77,87,57
+u_0272,relative product public-health thought cost life-sciences social-sciences chain medical culture,78,85,75
+u_0273,environmental-science-and-sustainability training accounting social-sciences image html platform information-technology,87,68,91
+u_0274,interface disease development market training algorithms,100,70,69
+u_0275,arts-and-humanities system testing policy model accounting training,92,93,68
+u_0276,writing digital energy materials image evaluation social-sciences,69,71,58
+u_0277,biology personal mechanical finance disease medical machine-learning presentation design-and-product algorithms,63,62,65
+u_0278,graphics case corporate tensorflow neural linear,74,77,93
+u_0279,leadership writing design medical cost,63,86,72
+u_0280,probability research patient value electrical-engineering html leadership,74,83,61
+u_0281,computer-security-and-networks natural business-essentials medical biology databases euler's javascript,79,76,80
+u_0282,statistical difference life-sciences child engineering social music value,78,100,67
+u_0283,strategic financial teaching medicine software-development innovation speech chain,68,67,68
+u_0284,accounting mobile-and-web-development health theory stock cloud-computing process chain entrepreneurship microsoft,67,89,92
+u_0285,personal-development culture totient software-development communication,68,65,80
+u_0286,business-essentials interfaces personal global totient,68,82,77
+u_0287,economics cost corporate innovation psychology social,56,93,96
+u_0288,stock microsoft video internet learning finance language-learning basic-science,67,70,78
+u_0289,entrepreneurship systems philosophy game computer media performance brand,79,82,99
+u_0290,international deep general learning-english analysis process interface human user average,72,65,58
+u_0291,optimization control design mobile-and-web-development marketing test cloud-computing,66,74,96
+u_0292,resource image general life-sciences interfaces basic-science,68,77,74
+u_0293,sustainability business-strategy case environmental-science-and-sustainability (computer modeling social-sciences communication,89,100,68
+u_0294,plan neural visualization control economy software-development energy tensorflow,69,87,83
+u_0295,mobile-and-web-development disease language design data-science education classification application artificial,97,82,70
+u_0296,difference function medicine stock education economics (computer chain system,82,88,84
+u_0297,personal electronics statistical presentation neural basic-science mathematical mechanical,81,87,89
+u_0298,policy linear statistical artificial data theory music-and-art international,91,82,72
+u_0299,value philosophy internet memory child,76,89,65
+u_0300,project brand artificial user operations design-and-product cost experience corporate marketing,79,70,75
+u_0301,relative machine-learning product service corporate electrical-engineering supply data-analysis environmental-science-and-sustainability,90,77,75
+u_0302,computer-science patient virtual physical-science-and-engineering psychology data,58,83,82
+u_0303,innovation global function public-health child financial disease (computer,100,71,77
+u_0304,time average engineering mine education training research cloud-computing,77,93,73
+u_0305,hypothesis relative product thinking innovation network governance-and-society,78,82,77
+u_0306,teaching natural game behavior corporate environmental-science-and-sustainability medical excel user,69,77,87
+u_0307,databases leadership-and-management totient business-strategy visualization statistical model general mine,62,76,66
+u_0308,child mine physics chain relative google,89,56,68
+u_0309,corporate evaluation general market patient behavior natural supply processing,79,93,74
+u_0310,data-analysis business-essentials language general classification writing accounting,68,97,57
+u_0311,operations pair i-deas relative change regression learning-english (economics),48,80,68
+u_0312,platforms (economics) education process personal electronics platform entrepreneurship euler's,62,83,77
+u_0313,measurement flow model html statistics,68,59,85
+u_0314,planning public-health music-and-art speech deep,82,73,97
+u_0315,environmental-science-and-sustainability education business sustainability social,62,56,66
+u_0316,operations artificial relative probability regression economy general testing,74,77,72
+u_0317,decision engineering security probability patient statistics mechanical,79,59,92
+u_0318,memory data-science network value computing processing performance risk i-deas business-essentials,74,88,79
+u_0319,analysis statistical test tensorflow process,80,81,80
+u_0320,media difference medical natural product performance human,82,90,77
+u_0321,microsoft (economics) leadership-and-management physical-science-and-engineering music-and-art system syntax governance-and-society decision,83,73,92
+u_0322,speech risk programming time neural public test,66,96,74
+u_0323,economy leadership-and-management network (computer html optimization networks stock economics security,57,76,66
+u_0324,measurement communication risk education relative testing totient business,85,67,69
+u_0325,interfaces english investment solving personal-development music-and-art biology,52,69,45
+u_0326,memory patient analysis ordered operations resource excel english engineering,55,84,84
+u_0327,modeling microsoft internet social optimization javascript disease mine java child,80,63,74
+u_0328,html public theory personal analytics,74,61,93
+u_0329,human relative algorithms difference i-deas medicine,85,72,75
+u_0330,value virtual sustainability deep economy learning-english type,77,50,72
+u_0331,totient environmental-science-and-sustainability economy brand writing product,66,62,71
+u_0332,flow mine resource cloud linear physical-science-and-engineering engineering sustainability,96,82,68
+u_0333,regression patient learning-english function arts-and-humanities economics database science history,81,91,86
+u_0334,financial speech philosophy physics finance mathematical investment development difference health,75,67,83
+u_0335,value difference linear development cloud-computing strategic international internet memory,79,85,82
+u_0336,processing pair management cryptography systems,87,68,90
+u_0337,life-sciences design problem accounting virtual software mechanical-engineering engineering strategy,77,99,66
+u_0338,computer-science general thought information-technology human medical average decision,95,77,67
+u_0339,plan supply investment thinking writing environmental-science-and-sustainability hypothesis mechanical-engineering,69,71,80
+u_0340,operations google modeling computing learning-english language-learning,81,68,74
+u_0341,social-sciences average model management economy learning statistical strategic international,100,95,80
+u_0342,natural problem mechanical supply experience totient governance-and-society accounting algorithms evaluation,75,76,82
+u_0343,memory physical-science-and-engineering computer-science hypothesis global personal,62,71,54
+u_0344,entrepreneurship financial strategy planning brand,79,82,69
+u_0345,investment chemistry international mine computer,93,60,57
+u_0346,electronics design mobile-and-web-development music statistics mechanical-engineering,77,87,95
+u_0347,economy development education disease business-essentials statistics,69,87,74
+u_0348,cost chain chemistry international testing english biology software-development hypothesis database,72,85,82
+u_0349,public-health statistical evaluation engineering visualization presentation,56,92,91
+u_0350,network computer-security-and-networks behavior networks visualization performance computer accounting medical measurement,67,79,80
+u_0351,product chain platforms value thought function statistical thinking,78,68,66
+u_0352,economy learning-english artificial entrepreneurship model statistical,74,89,81
+u_0353,software-development strategic development cloud-computing public-health value visualization flow human architecture,70,84,40
+u_0354,pair financial music-and-art decision writing culture,88,54,70
+u_0355,finance learning-english memory psychology marketing personal-development thinking,61,59,88
+u_0356,tensorflow language life-sciences psychology platform memory measurement cloud-computing systems relative,69,79,74
+u_0357,application biology programming change psychology electronics,80,75,59
+u_0358,i-deas economy relative euler's platforms,86,69,56
+u_0359,mine financial processing entrepreneurship image testing media supply microsoft,69,93,85
+u_0360,probability sales internet ordered resource stock video microsoft planning,70,70,71
+u_0361,deep chain financial theory innovation public-health design linear analytics electronics,99,79,80
+u_0362,data ordered image philosophy design-and-product corporate,87,77,71
+u_0363,public algorithms energy music-and-art experience supply test euler's,72,74,74
+u_0364,sustainability operations javascript neural pair physics memory medical,83,75,83
+u_0365,physics governance-and-society machine-learning syntax game education corporate natural risk mechanical-engineering,74,75,51
+u_0366,engineering product computer-science cloud measurement computer business public-health education service,85,79,86
+u_0367,strategy policy function analysis systems basic-science,40,100,73
+u_0368,plan engineering electrical-engineering html type personal databases graphics,88,62,82
+u_0369,data business mechanical image public-health programming flow corporate,62,67,97
+u_0370,learning-english general data disease platforms international interface,72,77,85
+u_0371,process communication product function entrepreneurship leadership-and-management,80,76,79
+u_0372,product digital game personal-development processing writing plan optimization governance-and-society,100,74,77
+u_0373,euler's platforms model statistical javascript writing operations probability computer-science,87,88,89
+u_0374,optimization supply thinking image artificial,82,61,94
+u_0375,html analysis virtual machine-learning machine,61,78,65
+u_0376,information decision music-and-art linear communication flow language experience,74,78,78
+u_0377,excel test artificial (economics) design cloud,80,94,80
+u_0378,business-strategy natural linear graphics computer-science computing innovation data research platform,72,86,89
+u_0379,solving classification processing cloud statistical system,60,82,83
+u_0380,entrepreneurship test architecture behavior mechanical-engineering music-and-art interfaces economy electronics,71,91,73
+u_0381,child memory writing disease cryptography accounting,76,72,75
+u_0382,planning information statistics cloud teaching,61,57,94
+u_0383,personal brand processing economics leadership materials (economics) culture physics,64,63,49
+u_0384,sales image thinking interface risk environmental-science-and-sustainability,67,59,94
+u_0385,hypothesis supply machine electrical-engineering public totient classification life-sciences personal-development,87,66,100
+u_0386,supply classification materials algorithms electronics architecture,86,71,45
+u_0387,resource process finance business internet science (economics),100,58,55
+u_0388,health security risk interface investment,87,100,91
+u_0389,visualization stock thought python project security game image finance,81,82,85
+u_0390,chemistry economics interfaces programming business-essentials public-health architecture machine memory,84,78,76
+u_0391,euler's patient database machine-learning javascript supply education personal-development biology,74,65,71
+u_0392,performance data-analysis software arts-and-humanities information evaluation global,54,73,63
+u_0393,databases cloud resource digital totient corporate computer-security-and-networks,61,77,91
+u_0394,brand personal energy governance-and-society process human biology business,86,56,63
+u_0395,application electrical-engineering supply music-and-art music interface probability brand,86,63,72
+u_0396,statistical testing tensorflow excel regression relative,81,63,76
+u_0397,computing processing chain business-essentials time excel materials,58,67,78
+u_0398,cost euler's economics thinking business-strategy language-learning control history,55,80,74
+u_0399,regression presentation natural information-technology environmental-science-and-sustainability sustainability project average strategic,81,77,91
+u_0400,research music business-essentials excel strategy thought international video education materials,76,69,76
+u_0401,entrepreneurship digital graphics algorithms speech problem thinking,81,75,75
+u_0402,investment chemistry relative philosophy mobile-and-web-development,66,67,58
+u_0403,basic-science excel global natural data-science resource virtual learning-english brand,95,60,66
+u_0404,machine process totient graphics type game arts-and-humanities decision (computer design,66,85,71
+u_0405,decision behavior mobile-and-web-development solving music-and-art interface process analysis planning,89,66,78
+u_0406,analytics mathematical i-deas training visualization design-and-product child,64,100,60
+u_0407,analytics investment plan language-learning strategic behavior platform child disease,78,82,79
+u_0408,accounting project databases python public value,72,73,75
+u_0409,history average software-development google java,73,86,100
+u_0410,difference financial database databases google artificial communication,68,58,73
+u_0411,corporate platforms culture chain strategy statistical design policy,100,65,94
+u_0412,learning teaching decision process behavior,95,68,81
+u_0413,electronics euler's training network image social,94,70,72
+u_0414,cloud-computing networks strategic statistics optimization service risk,68,62,67
+u_0415,html graphics interface processing leadership time,60,75,65
+u_0416,energy culture presentation networks architecture business mine change financial,77,56,78
+u_0417,solving mine software cost python learning-english risk,85,51,79
+u_0418,economics energy governance-and-society history user measurement physics,89,60,95
+u_0419,html innovation brand architecture (computer language-learning platform history google,80,66,74
+u_0420,governance-and-society electrical-engineering network international mine statistical personal,81,75,81
+u_0421,machine international human innovation modeling entrepreneurship internet history information-technology,63,77,58
+u_0422,excel software-development mathematical architecture global brand education,73,64,66
+u_0423,interfaces problem risk grammar materials learning-english excel decision network,89,88,82
+u_0424,arts-and-humanities physics general education risk innovation culture electrical-engineering marketing,61,71,89
+u_0425,analysis grammar human leadership-and-management interfaces cloud-computing basic-science,76,100,79
+u_0426,performance thought javascript physics value policy science arts-and-humanities machine linear,77,71,76
+u_0427,analytics business-essentials computer-science evaluation model,73,83,86
+u_0428,general machine-learning governance-and-society linear cryptography performance sustainability mathematical physical-science-and-engineering,65,59,52
+u_0429,history personal-development natural control mechanical-engineering economy language corporate music,81,61,49
+u_0430,systems problem python time operations solving totient statistical computer-science,79,100,74
+u_0431,user google security music modeling english research time,85,75,73
+u_0432,child google policy (computer service networks arts-and-humanities personal education,86,71,78
+u_0433,financial engineering test google mechanical business-strategy,78,66,86
+u_0434,learning-english machine-learning testing mine business-essentials patient personal-development stock behavior,72,65,81
+u_0435,human solving public-health engineering evaluation,64,75,74
+u_0436,social-sciences virtual health totient data-analysis classification testing behavior language-learning physics,88,80,74
+u_0437,cost service personal-development computer-security-and-networks value thinking,84,91,81
+u_0438,cloud materials finance optimization stock i-deas business-strategy excel,75,59,62
+u_0439,difference grammar economics design-and-product management syntax finance,71,67,72
+u_0440,governance-and-society materials type platforms sales software mechanical processing systems networks,75,81,74
+u_0441,performance personal-development testing media neural sustainability,80,75,51
+u_0442,health linear grammar teaching environmental-science-and-sustainability computer design planning computer-security-and-networks,63,73,60
+u_0443,data market social music difference management networks regression,82,93,89
+u_0444,health probability biology social evaluation finance operations resource digital machine,72,92,76
+u_0445,type probability arts-and-humanities marketing processing computer-security-and-networks internet,70,67,71
+u_0446,virtual economy statistics networks operations finance mine communication management change,70,77,76
+u_0447,cloud health presentation model training environmental-science-and-sustainability science analysis,75,80,89
+u_0448,platforms teaching modeling problem excel,86,57,44
+u_0449,relative life-sciences experience interfaces security syntax,86,58,72
+u_0450,python innovation theory statistical education,60,53,81
+u_0451,solving human medical behavior software-development strategy flow linear,84,68,43
+u_0452,(computer probability arts-and-humanities music google,68,79,57
+u_0453,change computer-security-and-networks i-deas function public-health personal javascript science systems security,77,74,81
+u_0454,education solving market platform average,76,63,89
+u_0455,google networks innovation education totient evaluation decision machine,73,74,63
+u_0456,image chemistry corporate medicine media child,69,64,72
+u_0457,graphics biology financial training medicine,95,58,55
+u_0458,psychology i-deas language-learning public decision marketing entrepreneurship performance interfaces,92,72,66
+u_0459,entrepreneurship video html brand life-sciences,87,67,96
+u_0460,programming resource chain health architecture test global control natural,83,69,100
+u_0461,network deep life-sciences data platform strategy programming user systems language,67,83,78
+u_0462,processing basic-science general computer-security-and-networks classification,90,93,75
+u_0463,value problem virtual mobile-and-web-development machine html learning-english personal algorithms,65,80,66
+u_0464,machine java writing mathematical financial algorithms learning-english,99,76,70
+u_0465,language-learning platform materials probability environmental-science-and-sustainability medical software,77,58,63
+u_0466,platforms information average entrepreneurship development euler's security,89,67,62
+u_0467,history difference (computer medicine development java type electronics,81,89,83
+u_0468,electronics network modeling programming policy education virtual analysis system video,86,65,57
+u_0469,database training corporate ordered arts-and-humanities plan social-sciences,93,71,71
+u_0470,personal-development syntax modeling leadership application networks (economics) product software user,90,81,80
+u_0471,cost computer-security-and-networks cloud video difference mathematical resource development test arts-and-humanities,100,67,86
+u_0472,social pair python patient international memory history,75,78,93
+u_0473,electronics mathematical management design programming euler's,81,81,87
+u_0474,deep control interfaces function computing,70,64,62
+u_0475,image classification electronics operations global,51,99,61
+u_0476,testing totient value corporate chain (economics),72,71,78
+u_0477,patient plan modeling disease international,84,85,68
+u_0478,computing model training design mobile-and-web-development,72,78,72
+u_0479,microsoft media java economics security,94,80,83
+u_0480,difference analysis theory regression business-essentials linear biology electronics case,82,89,77
+u_0481,strategic theory presentation performance energy syntax,59,79,67
+u_0482,euler's function business thought project statistics mechanical-engineering accounting materials,68,82,89
+u_0483,analysis application management graphics thinking time average internet python financial,75,78,95
+u_0484,english global physics engineering software-development classification business-strategy finance design,77,100,81
+u_0485,database public-health virtual plan governance-and-society i-deas,53,84,79
+u_0486,design-and-product communication basic-science human html,90,83,73
+u_0487,cloud presentation test engineering information hypothesis health english,60,72,64
+u_0488,ordered innovation language-learning virtual time economics chain,68,82,95
+u_0489,(economics) statistics cloud regression human philosophy process algorithms,79,60,80
+u_0490,arts-and-humanities culture microsoft innovation thought,89,67,73
+u_0491,learning-english sales research culture internet,75,65,82
+u_0492,user modeling finance social javascript biology mine platforms,73,80,64
+u_0493,language systems economics data-analysis finance classification totient sales processing,69,83,70
+u_0494,computer behavior statistical ordered network leadership optimization culture visualization,95,70,77
+u_0495,sustainability totient communication strategic python education market programming engineering analytics,86,57,53
+u_0496,energy mobile-and-web-development plan javascript service decision,56,90,68
+u_0497,philosophy platform ordered cloud learning,100,68,77
+u_0498,energy decision science social-sciences finance,93,99,99
+u_0499,market language strategic computer machine-learning patient interface,89,87,82
+u_0500,processing video leadership supply environmental-science-and-sustainability networks network game change risk,84,68,65
+u_0501,business-strategy investment function computer-science personal electrical-engineering euler's,74,72,69
+u_0502,public video public-health sustainability relative engineering security business-strategy interfaces education,83,86,76
+u_0503,regression medical product totient service natural data supply,92,61,72
+u_0504,sales relative natural grammar accounting linear disease testing architecture (economics),66,52,74
+u_0505,project chain brand analytics leadership business-strategy,73,93,82
+u_0506,deep flow sales philosophy statistics,62,97,89
+u_0507,planning totient graphics entrepreneurship personal-development mechanical,81,72,63
+u_0508,development analytics cost architecture game network computing english presentation chain,70,88,97
+u_0509,platforms sales presentation leadership mine virtual game test linear software-development,93,69,61
+u_0510,psychology performance mechanical-engineering java network physics data-science finance development,76,53,78
+u_0511,tensorflow analytics learning product relative management,73,69,55
+u_0512,personal regression health teaching speech computing testing,81,68,60
+u_0513,learning data-analysis platform mine software-development,40,74,96
+u_0514,product control life-sciences plan mine,94,69,67
+u_0515,processing platform planning neural biology testing human social syntax information,80,63,78
+u_0516,grammar probability chain network policy cloud-computing excel personal sales model,84,89,73
+u_0517,platform network thinking internet syntax child public social-sciences computing average,72,64,65
+u_0518,virtual patient language-learning test computer-science,72,79,85
+u_0519,tensorflow chain (computer analytics html linear,65,92,71
+u_0520,video software-development music-and-art cryptography cloud,74,66,45
+u_0521,accounting chain arts-and-humanities materials security policy,85,83,71
+u_0522,html average application investment analysis user research totient excel strategy,75,81,56
+u_0523,pair process corporate management computer interfaces music,68,84,59
+u_0524,global arts-and-humanities public-health performance thinking google natural planning relative cost,78,58,80
+u_0525,javascript model system culture life-sciences computer-science public learning chain ordered,74,55,88
+u_0526,life-sciences teaching machine-learning thinking system,66,65,77
+u_0527,cloud sustainability finance neural brand personal databases mine leadership interface,88,62,75
+u_0528,arts-and-humanities medicine information social marketing planning music-and-art financial psychology thought,80,83,77
+u_0529,image corporate average mechanical-engineering user hypothesis media statistical english communication,70,65,76
+u_0530,language-learning patient sustainability physics algorithms,62,40,80
+u_0531,resource management networks security public,85,46,62
+u_0532,computer-security-and-networks chemistry relative regression communication project financial machine-learning html business-essentials,82,99,75
+u_0533,artificial history internet processing deep,66,72,91
+u_0534,hypothesis user finance medical natural architecture risk theory,67,65,69
+u_0535,theory risk investment design user music microsoft model,63,76,94
+u_0536,linear engineering function solving platforms type communication,78,71,71
+u_0537,measurement accounting mechanical-engineering public-health economy,56,85,74
+u_0538,experience image engineering architecture database global learning-english javascript artificial,72,100,78
+u_0539,english artificial statistical writing processing classification computer-science disease patient,65,69,88
+u_0540,patient behavior electrical-engineering data-analysis modeling economy investment network arts-and-humanities,76,57,86
+u_0541,leadership-and-management social-sciences language problem writing environmental-science-and-sustainability,66,97,87
+u_0542,regression computer-security-and-networks data-analysis brand ordered chain average strategy,69,90,75
+u_0543,architecture visualization processing image economics,85,80,64
+u_0544,database governance-and-society programming virtual case platform global,67,87,70
+u_0545,value function data-analysis test platform,70,63,80
+u_0546,planning process linear general learning-english accounting public-health user interfaces,99,62,75
+u_0547,grammar patient medicine artificial data-science network evaluation optimization software-development electrical-engineering,91,74,80
+u_0548,environmental-science-and-sustainability excel mobile-and-web-development data-science processing music-and-art child english computer,62,80,72
+u_0549,artificial personal-development plan learning neural biology java business-strategy physics platforms,86,89,100
+u_0550,planning experience human statistical cryptography science testing personal-development average value,81,78,77
+u_0551,decision security psychology science change thought electronics grammar training,70,79,71
+u_0552,development stock social software java policy basic-science,77,90,62
+u_0553,human product test leadership network leadership-and-management regression development,88,90,73
+u_0554,computer-science difference computer resource mine energy,49,67,90
+u_0555,theory strategic basic-science processing materials market environmental-science-and-sustainability,74,63,68
+u_0556,entrepreneurship plan physics brand investment,85,81,72
+u_0557,artificial platform image google accounting system,70,70,63
+u_0558,i-deas child finance media leadership interfaces computer,94,71,89
+u_0559,patient change analytics decision model behavior,93,86,69
+u_0560,personal-development probability thought stock learning environmental-science-and-sustainability,79,74,64
+u_0561,artificial health decision network chemistry,78,60,89
+u_0562,model digital medicine internet classification,69,77,78
+u_0563,medical evaluation problem thinking google governance-and-society digital systems microsoft biology,71,82,69
+u_0564,database case processing philosophy python business mathematical hypothesis plan cloud-computing,85,58,76
+u_0565,brand medicine media statistical javascript process databases software neural evaluation,98,62,66
+u_0566,economics evaluation ordered operations classification probability statistical psychology function training,81,77,79
+u_0567,development chemistry optimization hypothesis chain environmental-science-and-sustainability,80,82,88
+u_0568,corporate project operations video public ordered,79,72,83
+u_0569,optimization architecture time data-science philosophy policy patient psychology,97,73,63
+u_0570,memory classification analytics javascript mechanical html artificial,88,73,48
+u_0571,sales basic-science statistical machine-learning graphics visualization information-technology public communication deep,85,68,73
+u_0572,electronics ordered memory cloud-computing information-technology environmental-science-and-sustainability,78,77,83
+u_0573,operations security analytics game model cryptography internet,69,81,71
+u_0574,music-and-art plan ordered philosophy public strategic modeling deep,83,82,63
+u_0575,materials philosophy design-and-product electrical-engineering life-sciences,88,68,84
+u_0576,leadership-and-management disease modeling environmental-science-and-sustainability supply flow statistical public-health,79,97,72
+u_0577,function education regression teaching thought,70,74,71
+u_0578,governance-and-society software-development innovation speech information-technology writing grammar application service,84,55,62
+u_0579,innovation materials development business culture evaluation,62,86,95
+u_0580,machine-learning cost social physics security health,73,72,75
+u_0581,information materials networks optimization relative interfaces business data-science mechanical,88,63,77
+u_0582,syntax plan programming testing economy flow,86,81,77
+u_0583,data behavior business computer-security-and-networks syntax totient,87,42,83
+u_0584,excel accounting java health python interfaces,67,53,81
+u_0585,platform internet arts-and-humanities software design statistical business-essentials difference average,91,73,86
+u_0586,brand product neural information javascript human teaching physics sales,94,90,94
+u_0587,arts-and-humanities optimization data experience model average,83,75,55
+u_0588,change syntax learning platform basic-science machine-learning,72,64,100
+u_0589,control classification probability data-science thinking,72,76,81
+u_0590,pair mechanical case computer brand hypothesis process operations learning child,75,95,67
+u_0591,value science supply market sustainability,77,66,59
+u_0592,artificial virtual algorithms financial excel javascript service,67,74,69
+u_0593,biology global hypothesis planning database,66,58,74
+u_0594,case medicine virtual education global python mathematical,56,84,75
+u_0595,electrical-engineering modeling media history process video energy medicine regression user,57,71,65
+u_0596,regression sales mine thought public system language sustainability video,78,91,52
+u_0597,child databases music-and-art english management programming,76,73,83
+u_0598,security physical-science-and-engineering patient measurement performance function finance mathematical cloud memory,77,65,71
+u_0599,planning pair medical statistics difference public user strategic computer network,65,87,75

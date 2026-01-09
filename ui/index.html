@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Program Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Student Program Recommender</h1>
+            <p class="subtitle">Find your perfect academic program based on your interests and grades</p>
+        </header>
+
+        <main>
+            <!-- Quick Test Section -->
+            <section class="card test-section">
+                <h2>🧪 Quick Test Cases</h2>
+                <p class="hint">Click to auto-fill form with test data</p>
+                <div class="test-buttons">
+                    <button type="button" class="btn btn-test" onclick="fillTestCase('cs')">
+                        💻 Computer Science Student
+                    </button>
+                    <button type="button" class="btn btn-test" onclick="fillTestCase('bio')">
+                        🧬 Biology Enthusiast
+                    </button>
+                    <button type="button" class="btn btn-test" onclick="fillTestCase('business')">
+                        💼 Business Minded
+                    </button>
+                    <button type="button" class="btn btn-test" onclick="fillTestCase('arts')">
+                        🎨 Creative Arts
+                    </button>
+                    <button type="button" class="btn btn-test" onclick="fillTestCase('engineering')">
+                        ⚙️ Engineering Focus
+                    </button>
+                </div>
+            </section>
+
+            <!-- Input Form -->
+            <section id="input-section" class="card">
+                <h2>Tell us about yourself</h2>
+                
+                <form id="recommendation-form">
+                    <div class="form-group">
+                        <label for="interests">
+                            Your Interests
+                            <span class="hint">(comma-separated, e.g., technology, art, biology)</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="interests" 
+                            name="interests" 
+                            placeholder="technology, artificial intelligence, programming"
+                            required
+                        >
+                    </div>
+
+                    <div class="grades-grid">
+                        <div class="form-group">
+                            <label for="math_grade">Mathematics Grade</label>
+                            <input 
+                                type="number" 
+                                id="math_grade" 
+                                name="math_grade" 
+                                min="0" 
+                                max="100" 
+                                value="75"
+                                required
+                            >
+                            <span class="grade-display">75%</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="science_grade">Science Grade</label>
+                            <input 
+                                type="number" 
+                                id="science_grade" 
+                                name="science_grade" 
+                                min="0" 
+                                max="100" 
+                                value="75"
+                                required
+                            >
+                            <span class="grade-display">75%</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="language_grade">Language Grade</label>
+                            <input 
+                                type="number" 
+                                id="language_grade" 
+                                name="language_grade" 
+                                min="0" 
+                                max="100" 
+                                value="75"
+                                required
+                            >
+                            <span class="grade-display">75%</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="num_recommendations">Number of Recommendations</label>
+                        <select id="num_recommendations" name="k">
+                            <option value="3">3 programs</option>
+                            <option value="5" selected>5 programs</option>
+                            <option value="10">10 programs</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="submit-btn">
+                        Get Recommendations
+                    </button>
+                </form>
+            </section>
+
+            <!-- Results Section -->
+            <section id="results-section" class="card hidden">
+                <div class="results-header">
+                    <h2>Your Personalized Recommendations</h2>
+                    <button class="btn btn-secondary" id="reset-btn">New Search</button>
+                </div>
+                
+                <div id="recommendations-container"></div>
+            </section>
+
+            <!-- Loading Spinner -->
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Finding the best programs for you...</p>
+            </div>
+
+            <!-- Error Message -->
+            <div id="error-message" class="error-card hidden">
+                <h3>⚠️ Something went wrong</h3>
+                <p id="error-text"></p>
+                <button class="btn btn-secondary" onclick="hideError()">Try Again</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by Hybrid Recommendation System (Content-Based + Collaborative Filtering)</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
